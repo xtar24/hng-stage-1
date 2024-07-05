@@ -48,6 +48,7 @@ header, section, footer {
     width: 80%;
     max-width: 800px;
     margin: 20px 0;
+    padding: 30px;
 }
 
 img {
