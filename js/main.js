@@ -13,23 +13,12 @@ setInterval(updateDateTime, 1000);
 // Initial call to display the date and time immediately when the page loads
 updateDateTime();
 
-
-
-
-const hamburgerButton = document.querySelector('.hamburger-button');
-
-const mainMenu = document.querySelector('.main-menu');
-
-hamburgerButton.addEventListener('click', ()=> {
-    hamburgerButton.classList.toggle('active');
-    mainMenu.classList.toggle('active');
-});
-
+//Mobile Menu
 document.addEventListener("DOMContentLoaded", () => {
-    const hamburgerButton = document.querySelector(".hamburger-button");
-    const mainMenu = document.querySelector(".main-menu");
-  
-    hamburgerButton.addEventListener('click', () =>{
-        mainMenu.classList.toggle("active")
-    });
+  const hamburgerButton = document.querySelector(".hamburger-button");
+  const mobileMenu = document.querySelector(".mobile-menu");
+
+  hamburgerButton.addEventListener('click', () =>{
+    mobileMenu.classList.toggle("active")
   });
+});
